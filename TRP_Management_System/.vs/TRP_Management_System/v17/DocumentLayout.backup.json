@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\dotnet\\MVC\\TRP_Management_System\\TRP_Management_System\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC1FE0C-2B38-4998-A2EB-A4E1891715B7}|TRP_Management_System\\TRP_Management_System.csproj|d:\\dotnet\\mvc\\trp_management_system\\trp_management_system\\trp_management_system\\views\\channel\\create_channel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3FC1FE0C-2B38-4998-A2EB-A4E1891715B7}|TRP_Management_System\\TRP_Management_System.csproj|solutionrelative:trp_management_system\\views\\channel\\create_channel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC1FE0C-2B38-4998-A2EB-A4E1891715B7}|TRP_Management_System\\TRP_Management_System.csproj|d:\\dotnet\\mvc\\trp_management_system\\trp_management_system\\trp_management_system\\dtos\\create_channel_dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FC1FE0C-2B38-4998-A2EB-A4E1891715B7}|TRP_Management_System\\TRP_Management_System.csproj|solutionrelative:trp_management_system\\dtos\\create_channel_dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC1FE0C-2B38-4998-A2EB-A4E1891715B7}|TRP_Management_System\\TRP_Management_System.csproj|d:\\dotnet\\mvc\\trp_management_system\\trp_management_system\\trp_management_system\\validation\\unique.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FC1FE0C-2B38-4998-A2EB-A4E1891715B7}|TRP_Management_System\\TRP_Management_System.csproj|solutionrelative:trp_management_system\\validation\\unique.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC1FE0C-2B38-4998-A2EB-A4E1891715B7}|TRP_Management_System\\TRP_Management_System.csproj|d:\\dotnet\\mvc\\trp_management_system\\trp_management_system\\trp_management_system\\controllers\\channelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FC1FE0C-2B38-4998-A2EB-A4E1891715B7}|TRP_Management_System\\TRP_Management_System.csproj|solutionrelative:trp_management_system\\controllers\\channelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create_Channel_DTO.cs",
+              "DocumentMoniker": "D:\\dotnet\\MVC\\TRP_Management_System\\TRP_Management_System\\TRP_Management_System\\DTOs\\Create_Channel_DTO.cs",
+              "RelativeDocumentMoniker": "TRP_Management_System\\DTOs\\Create_Channel_DTO.cs",
+              "ToolTip": "D:\\dotnet\\MVC\\TRP_Management_System\\TRP_Management_System\\TRP_Management_System\\DTOs\\Create_Channel_DTO.cs",
+              "RelativeToolTip": "TRP_Management_System\\DTOs\\Create_Channel_DTO.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T18:48:55.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Unique.cs",
+              "DocumentMoniker": "D:\\dotnet\\MVC\\TRP_Management_System\\TRP_Management_System\\TRP_Management_System\\Validation\\Unique.cs",
+              "RelativeDocumentMoniker": "TRP_Management_System\\Validation\\Unique.cs",
+              "ToolTip": "D:\\dotnet\\MVC\\TRP_Management_System\\TRP_Management_System\\TRP_Management_System\\Validation\\Unique.cs",
+              "RelativeToolTip": "TRP_Management_System\\Validation\\Unique.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T18:19:27.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ChannelController.cs",
+              "DocumentMoniker": "D:\\dotnet\\MVC\\TRP_Management_System\\TRP_Management_System\\TRP_Management_System\\Controllers\\ChannelController.cs",
+              "RelativeDocumentMoniker": "TRP_Management_System\\Controllers\\ChannelController.cs",
+              "ToolTip": "D:\\dotnet\\MVC\\TRP_Management_System\\TRP_Management_System\\TRP_Management_System\\Controllers\\ChannelController.cs",
+              "RelativeToolTip": "TRP_Management_System\\Controllers\\ChannelController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAIAxwBQAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T18:07:19.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create_Channel.cshtml",
+              "DocumentMoniker": "D:\\dotnet\\MVC\\TRP_Management_System\\TRP_Management_System\\TRP_Management_System\\Views\\Channel\\Create_Channel.cshtml",
+              "RelativeDocumentMoniker": "TRP_Management_System\\Views\\Channel\\Create_Channel.cshtml",
+              "ToolTip": "D:\\dotnet\\MVC\\TRP_Management_System\\TRP_Management_System\\TRP_Management_System\\Views\\Channel\\Create_Channel.cshtml",
+              "RelativeToolTip": "TRP_Management_System\\Views\\Channel\\Create_Channel.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T17:59:43.812Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
