@@ -48,9 +48,62 @@ namespace TRP_Management_System.Controllers
             {
                 tmse.Channels.Add(Convert(c));
                 tmse.SaveChanges();
-                return View(c);
+                return RedirectToAction("List_Of_Channels");
             }
             return View(c);
+        }
+
+        [HttpGet]
+        public ActionResult Edit_Channel(int id)
+        {
+            return View(tmse.Channels.Find(id));
+        }
+
+        [HttpPost]
+        public ActionResult Edit_Channel(int id, Create_Channel_DTO c)
+        {
+            if (ModelState.IsValid)
+            {
+                var isExist = tmse.Channels.Find(id);
+
+                if (isExist == null)
+                {
+                    return View();
+                }
+                else
+                {
+                    isExist.ChannelName = c.ChannelName;
+                    isExist.EstablishedYear = (int)c.EstablishedYear;
+                    isExist.Country = c.Country;
+                    tmse.SaveChanges();
+
+                    return RedirectToAction("List_Of_Channels");
+                }
+            }
+            else
+            {
+                return View(c);
+            }
+        }
+
+        [HttpGet]
+        public ActionResult Delete_Channel(int id)
+        {
+            return View(tmse.Channels.Find(id));
+        }
+
+        [HttpPost]
+        public ActionResult Delete_Channel(int id, string Decision)
+        {
+            var getChannel = tmse.Channels.Find(id);
+
+            if(Decision == "Delete")
+            {
+                tmse.Channels.Remove(getChannel);
+                tmse.SaveChanges();
+            }
+
+            return RedirectToAction("List_Of_Channels");
         }
     }
 }

@@ -1,9 +1,9 @@
 ﻿
 @{
-    ViewBag.Title = "Create_Channel";
+    ViewBag.Title = "Edit_Channel";
 }
 
-<h2>Create_Channel</h2>
+<h2>Edit_Channel</h2>
 
 <form method="post">
     <input type="text" name="ChannelName" placeholder="Name of the channel" value="@Model.ChannelName" class="form-control m-1" />
@@ -15,5 +15,5 @@
     <input type="text" name="Country" placeholder="Country of the channel" value="@Model.Country" class="form-control m-1" />
     <small class="text-danger"> @Html.ValidationMessage("Country") </small>
 
-    <input type="submit" value="Create" class="btn btn-outline-primary" />
+    <input type="submit" value="Update" class="btn btn-outline-primary" />
 </form>

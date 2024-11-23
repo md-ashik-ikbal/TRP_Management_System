@@ -231,6 +231,8 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Channel\List_Of_Channels.cshtml" />
     <Content Include="Views\Channel\Create_Channel.cshtml" />
+    <Content Include="Views\Channel\Edit_Channel.cshtml" />
+    <Content Include="Views\Channel\Delete_Channel.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

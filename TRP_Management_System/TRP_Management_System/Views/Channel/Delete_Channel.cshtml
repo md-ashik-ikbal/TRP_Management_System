@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewBag.Title = "Delete_Channel";
+}
+
+<h2>Delete_Channel</h2>
+
+<form method="post">
+    <h5>Delete?</h5>
+    <p>Channel Id: @Model.ChannelId </p>
+    <p>Channel Name: @Model.ChannelName </p>
+    <p>Country @Model.Country </p>
+    <input type="submit" name="Decision" value="Delete" class="btn btn-outline-danger" />
+    <input type="submit" name="Decision" value="Cancel" class="btn btn-outline-secondary" />
+</form>

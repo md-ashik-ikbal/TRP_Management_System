@@ -10,6 +10,10 @@ namespace TRP_Management_System.Validation
     public class Unique : ValidationAttribute
     {
         private readonly TRP_Management_System_Entities entitiy = new TRP_Management_System_Entities();
+        private string Convert(int value)
+        {
+            return value.ToString();
+        }
 
         protected override ValidationResult IsValid(object value, ValidationContext validationContext)
         {

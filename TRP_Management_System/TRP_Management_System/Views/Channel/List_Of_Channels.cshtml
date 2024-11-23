@@ -5,3 +5,38 @@
 
 <h2>List_Of_Channels</h2>
 
+<div class="accordion" id="accordionExample">
+    @{ int i = 1; }
+
+    @foreach (var item in Model)
+    {
+        <div class="accordion-item">
+            <div class="accordion-header">
+                <div class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-@item.ChannelId" aria-expanded="false" aria-controls="accordion-@item.ChannelId">
+                    <div class="p-0 m-0 d-flex flex-row gap-5 lh-1">
+                        <h5>
+                            @i
+                            @item.ChannelName
+                        </h5>
+                        <p class=""> <i> Channel Id: @item.ChannelId </i> </p>
+                        <p>Established: @item.EstablishedYear </p>
+                        <p>Country: @item.Country </p>
+                    </div>
+                </div>
+            </div>
+            <div id="accordion-@item.ChannelId" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <form>
+                        <input type="submit" value="Add Program" class="btn btn-sm btn-outline-primary" />
+                        <a class="btn btn-sm btn-outline-success m-1" href="/Channel/Edit_Channel/@item.ChannelId">Edit</a="btn>
+                        <a class="btn btn-sm btn-outline-danger m-1" href="/Channel/Delete_Channel/@item.ChannelId">Delete</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        i++;
+    }
+
+    <a href="/Channel/Create_Channel" class="btn btn-outline-info mt-2">Add Channel</a>
+</div>
