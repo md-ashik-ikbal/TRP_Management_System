@@ -1,8 +1,8 @@
 CREATE TABLE Channels (
-    ChannelId INT NOT NULL PRIMARY KEY IDENTITY(1,1),
-    ChannelName VARCHAR(100) NOT NULL UNIQUE,
-    EstablishedYear INT NOT NULL CHECK (EstablishedYear BETWEEN 1900 AND YEAR(GETDATE())),
-    Country VARCHAR(50) NOT NULL
+	ChannelId INT NOT NULL PRIMARY KEY IDENTITY(1,1),
+	ChannelName VARCHAR(100) NOT NULL UNIQUE,
+	EstablishedYear INT NOT NULL CHECK (EstablishedYear BETWEEN 1900 AND YEAR(GETDATE())),
+	Country VARCHAR(50) NOT NULL
 );
 
 CREATE TABLE Programs (
@@ -10,7 +10,7 @@ CREATE TABLE Programs (
 	ProgramName VARCHAR(150) NOT NULL,
 	TRPScore DECIMAL(3, 0) NOT NULL CHECK(TRPScore BETWEEN 0.0 AND 10.0),
 	ChannelId INT NOT NULL,
-    AirTime TIME NOT NULL,
+    	AirTime TIME NOT NULL,
 	CONSTRAINT FK_Program_Channel FOREIGN KEY(ChannelId) REFERENCES Channels(ChannelId),
 	CONSTRAINT UQ_Program_Channel UNIQUE (ProgramName, ChannelId)
 );
